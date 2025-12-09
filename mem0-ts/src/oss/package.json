@@ -5,9 +5,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "test": "jest",
-    "start": "pnpm run example memory",
+    "start": "node init && pnpm run example memory",
     "example": "ts-node examples/vector-stores/index.ts",
     "clean": "rimraf dist",
     "prepare": "npm run build"
