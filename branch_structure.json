@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "api_get_memories",
+    "docs_sweeps",
+    "filters_fixes",
+    "fix/api-auth-header",
+    "fix/embedchain-deprecation-imports",
+    "main",
+    "migration-guide",
+    "origin"
+  ],
+  "parent": {
+    "api_get_memories": "main",
+    "docs_sweeps": "main",
+    "filters_fixes": "main",
+    "fix/api-auth-header": "main",
+    "fix/embedchain-deprecation-imports": "main",
+    "main": null,
+    "migration-guide": "main",
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "api_get_memories",
+    "docs_sweeps",
+    "filters_fixes",
+    "fix/api-auth-header",
+    "fix/embedchain-deprecation-imports",
+    "migration-guide",
+    "origin"
+  ]
+}
