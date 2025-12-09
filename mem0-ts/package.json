@@ -32,9 +32,9 @@
   ],
   "scripts": {
     "clean": "rimraf dist",
-    "build": "npm run clean && npx prettier --check . && npx tsup",
-    "dev": "npx nodemon",
-    "start": "pnpm run example memory",
+    "build": "node init && npm run clean && npx prettier --check . && npx tsup",
+    "dev": "node init && npx nodemon",
+    "start": "node init && pnpm run example memory",
     "example": "ts-node src/oss/examples/vector-stores/index.ts",
     "test": "jest",
     "test:ts": "jest --config jest.config.js",
