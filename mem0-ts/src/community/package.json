@@ -22,8 +22,8 @@
   ],
   "scripts": {
     "clean": "rimraf dist",
-    "build": "npm run clean && npx prettier --check . && npx tsup",
-    "dev": "npx nodemon",
+    "build": "node init && npm run clean && npx prettier --check . && npx tsup",
+    "dev": "node init && npx nodemon",
     "test": "jest",
     "test:ts": "jest --config jest.config.js",
     "test:watch": "jest --config jest.config.js --watch",

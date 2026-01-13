@@ -9,9 +9,9 @@
     "dist/**/*"
   ],
   "scripts": {
-    "build": "tsup",
+    "build": "node init && tsup",
     "clean": "rm -rf dist",
-    "dev": "nodemon",
+    "dev": "node init && nodemon",
     "lint": "eslint \"./**/*.ts*\"",
     "type-check": "tsc --noEmit",
     "prettier-check": "prettier --check \"./**/*.ts*\"",
